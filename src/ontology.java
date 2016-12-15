@@ -50,7 +50,6 @@ public class ontology {
 		OntModel base = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
 
 		base.read(in, null);
-		base.write(System.out);
 
 		
 		in.close();
@@ -75,62 +74,38 @@ public class ontology {
 		
 		for (Iterator iterator = Medicamento.keySet().iterator(); iterator.hasNext();) {
 			String key = (String) iterator.next();
-			//System.out.println(Medicamento.get(key));
+
 			for (OntProperty p : MedicamentoProperties) {
 				System.out.println("ugh" + p.getLocalName());
 
 				
+				if (p.getLocalName().equals("nome")){
+					System.out.println("Encontrou a propriedade do nome");
+					i.addLiteral(p, Medicamento.get("name"));	
+				}
 				
-				/*
-				if (p.getLocalName().equals("nome"))
-					i.addLiteral(p, Medicamento.get("name"));
-				
-				
-				
+				System.out.println(Medicamento.get("uso"));
 				if (p.getLocalName().equals("uso"))
 					i.addLiteral(p, Medicamento.get("uso"));
 				if (p.getLocalName().equals("posologia"))
 					i.addLiteral(p, Medicamento.get("posologia"));
-				if (p.getLocalName().equals("modoAdministra��o"))
-					i.addLiteral(p, Medicamento.get("modo de administra��o"));
+				if (p.getLocalName().equals("modoAdministracao"))
+					i.addLiteral(p, Medicamento.get("modo de administração"));
 				if (p.getLocalName().equals("grupoFarmacologico"))
-					i.addLiteral(p, Medicamento.get("grupo farmacol�gico"));
+					i.addLiteral(p, Medicamento.get("grupo farmacológico"));
 				if (p.getLocalName().equals("efeitoAdverso"))
 					i.addLiteral(p, Medicamento.get("efeitos adversos"));
-				if (p.getLocalName().equals("contraIndica��o"))
-					i.addLiteral(p, Medicamento.get("contrainidica��o"));
+				if (p.getLocalName().equals("contraIndicacao"))
+					i.addLiteral(p, Medicamento.get("contraindicação"));
 					
-					*/
+					
 			}
 		}
 		
-		/*
-		JSONArray a = (JSONArray) parser.parse(new FileReader("bulario/Anfepramona.json"));
+		base.write(System.out);
 
 		
-		for (Object o : a) {
-			JSONObject Medicamento = (JSONObject) o;
-			Individual i = MedicamentoClass.createIndividual(namespace + Medicamento.get("id"));
-
-			for (OntProperty p : MedicamentoProperties) {
-				if (p.getLocalName().equals("nome"))
-					i.addLiteral(p, Medicamento.get("name"));
-				if (p.getLocalName().equals("uso"))
-					i.addLiteral(p, Medicamento.get("uso"));
-				if (p.getLocalName().equals("posologia"))
-					i.addLiteral(p, Medicamento.get("posologia"));
-				if (p.getLocalName().equals("modoAdministra��o"))
-					i.addLiteral(p, Medicamento.get("modo de administra��o"));
-				if (p.getLocalName().equals("grupoFarmacologico"))
-					i.addLiteral(p, Medicamento.get("grupo farmacol�gico"));
-				if (p.getLocalName().equals("efeitoAdverso"))
-					i.addLiteral(p, Medicamento.get("efeitos adversos"));
-				if (p.getLocalName().equals("contraIndica��o"))
-					i.addLiteral(p, Medicamento.get("contrainidica��o"));
-			}
-		}
-		*/
-
+		
 		
 
 	}
