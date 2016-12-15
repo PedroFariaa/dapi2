@@ -41,49 +41,97 @@ import org.json.simple.parser.ParseException;
 
 public class ontology {
 
-	private static String namespace = "http://www.semanticweb.org/pedro/ontologies/emed#";
-	
-	public static void main(String[] args) throws IOException, ParseException{
+	private static String namespace = "http://www.semanticweb.org/pedro/ontologies/emed.owl#";
+
+	public static void main(String[] args) throws IOException, ParseException {
 		InputStream in = new FileInputStream("Emed.owl"); // or any windows path
+		
+		
 		OntModel base = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
+
+		base.read(in, null);
+		base.write(System.out);
+
 		
-		base.read(in,null);
 		in.close();
-	
+
 		OntClass MedicamentoClass = base.getOntClass(namespace + "Medicamento");
-	
+
 		ArrayList<OntProperty> MedicamentoProperties = new ArrayList<OntProperty>();
-	
-		for(Iterator<?> it = MedicamentoClass.listDeclaredProperties();it.hasNext();){
-			OntProperty p = (OntProperty) it.next();
-			MedicamentoProperties.add(p);
-		}
-	
-		JSONParser parser = new JSONParser();
-		JSONArray a = (JSONArray) parser.parse(new FileReader("bulario/Anfepramona.json"));
+
 		
-		for(Object o : a){
-			JSONObject Medicamento = (JSONObject) o;
-			Individual i = MedicamentoClass.createIndividual(namespace + Medicamento.get("id"));
-			
-			for(OntProperty p : MedicamentoProperties){
-				if(p.getLocalName().equals("nome"))
+		
+		 for(Iterator it = MedicamentoClass.listDeclaredProperties();it.hasNext();){ 
+			 OntProperty p = (OntProperty) it.next(); 
+			 MedicamentoProperties.add(p); 
+			 }
+		 
+
+		JSONParser parser = new JSONParser();
+		Object obj = parser.parse(new FileReader("bulario/Anfepramona.json"));
+		JSONObject Medicamento = (JSONObject) obj;
+
+		Individual i = base.createIndividual(namespace + "Anfepramona",MedicamentoClass);
+		
+		for (Iterator iterator = Medicamento.keySet().iterator(); iterator.hasNext();) {
+			String key = (String) iterator.next();
+			//System.out.println(Medicamento.get(key));
+			for (OntProperty p : MedicamentoProperties) {
+				System.out.println("ugh" + p.getLocalName());
+
+				
+				
+				/*
+				if (p.getLocalName().equals("nome"))
 					i.addLiteral(p, Medicamento.get("name"));
-				if(p.getLocalName().equals("uso"))
+				
+				
+				
+				if (p.getLocalName().equals("uso"))
 					i.addLiteral(p, Medicamento.get("uso"));
-				if(p.getLocalName().equals("posologia"))
+				if (p.getLocalName().equals("posologia"))
 					i.addLiteral(p, Medicamento.get("posologia"));
-				if(p.getLocalName().equals("modoAdministração"))
-					i.addLiteral(p, Medicamento.get("modo de administração"));
-				if(p.getLocalName().equals("grupoFarmacologico"))
-					i.addLiteral(p, Medicamento.get("grupo farmacológico"));
-				if(p.getLocalName().equals("efeitoAdverso"))
+				if (p.getLocalName().equals("modoAdministraï¿½ï¿½o"))
+					i.addLiteral(p, Medicamento.get("modo de administraï¿½ï¿½o"));
+				if (p.getLocalName().equals("grupoFarmacologico"))
+					i.addLiteral(p, Medicamento.get("grupo farmacolï¿½gico"));
+				if (p.getLocalName().equals("efeitoAdverso"))
 					i.addLiteral(p, Medicamento.get("efeitos adversos"));
-				if(p.getLocalName().equals("contraIndicação"))
-					i.addLiteral(p, Medicamento.get("contrainidicação"));
+				if (p.getLocalName().equals("contraIndicaï¿½ï¿½o"))
+					i.addLiteral(p, Medicamento.get("contrainidicaï¿½ï¿½o"));
+					
+					*/
 			}
 		}
 		
-		base.write(System.out);
+		/*
+		JSONArray a = (JSONArray) parser.parse(new FileReader("bulario/Anfepramona.json"));
+
+		
+		for (Object o : a) {
+			JSONObject Medicamento = (JSONObject) o;
+			Individual i = MedicamentoClass.createIndividual(namespace + Medicamento.get("id"));
+
+			for (OntProperty p : MedicamentoProperties) {
+				if (p.getLocalName().equals("nome"))
+					i.addLiteral(p, Medicamento.get("name"));
+				if (p.getLocalName().equals("uso"))
+					i.addLiteral(p, Medicamento.get("uso"));
+				if (p.getLocalName().equals("posologia"))
+					i.addLiteral(p, Medicamento.get("posologia"));
+				if (p.getLocalName().equals("modoAdministraï¿½ï¿½o"))
+					i.addLiteral(p, Medicamento.get("modo de administraï¿½ï¿½o"));
+				if (p.getLocalName().equals("grupoFarmacologico"))
+					i.addLiteral(p, Medicamento.get("grupo farmacolï¿½gico"));
+				if (p.getLocalName().equals("efeitoAdverso"))
+					i.addLiteral(p, Medicamento.get("efeitos adversos"));
+				if (p.getLocalName().equals("contraIndicaï¿½ï¿½o"))
+					i.addLiteral(p, Medicamento.get("contrainidicaï¿½ï¿½o"));
+			}
+		}
+		*/
+
+		
+
 	}
 }
