@@ -1,0 +1,14 @@
+{
+    "associações/preços": "ablok plus®: cpr de atenolol 100 mg + clortalidona 25 mg (30 cpr r$ 30,27), 25 mg + 12,5 mg (30 cpr r$ 10,16), 50 mg + 12,5 mg (30 cpr r$ 18,76); angipress-cd®: cpr de atenolol 100 mg + clortalidona 25 mg (28 cpr r$ 41,05), 25 mg + 12,5 mg (28 cpr r$ 18,77), 50 mg + 12,5 mg (28 cpr r$ 15,28); atenorese®: cpr de atenolol 100 mg + clortalidona 25 mg (30 cpr r$ 29,66), 50 mg + 12,5 mg (30 cpr r$ 17,98); diupress®: amilorida + clortalidona (20 cpr r$ 12,31); higroton reserpina®: reserpina + clortalidona (20 cps r$ 11,54); tenoretic®: cps de atenolol 100 mg + clortalidona 25 mg (28 cps r$ 47,93), 50 mg + 12,5 mg (28 cps r$ 29,55).", 
+    "name": "Clortalidona", 
+    "apresentações e preços comerciais": "cpr de 12,5 (42 cpr r$ 8,75), 25 (40 cpr r$ 8,16) e 50 mg (30 cpr r$ 10,24).", 
+    "posologia": "has: 12,5-50 mg/dia. em geral, dose de 12,5-25 mg/dia é suficiente. em função da meia-vida longa (35-50 h), pode ser usada em dias alternados ou 3x/semana dependendo da situação clínica. há pouca vantagem em se usar doses > 25 mg/dia.", 
+    "incompatabilities": "", 
+    "uso": "manejo da has leve a moderada quando usada só ou em combinação com outros agentes anti-hipertensivos. tratamento do edema desencadeado por icc ou síndrome nefrótica.", 
+    "apresentações/preços genéricos": "cpr de 12,5 (60 cpr r$ 7,88), 25 (60 cpr r$ 13,87) e 50 mg (30 cpr r$ 10,65); atenolol + clortalidona: cpr de 100 + 25 mg (30 cpr r$ 33,38); cpr de 50 + 12,5 mg (30 cpr r$ 16,57).", 
+    "grupo farmacológico": "diurético tiazídico; inibe o cotransportador na+-cl- na membrana apical do túbulo distal.", 
+    "modo de administração": "vo. pode ser administrada com alimento sólido ou com leite. tomar a última dose antes das 18 h para evitar noctúria.", 
+    "efeitos adversos": "são muito comuns hipocalemia, hiperuricemia e aumento dos lipídeos sanguíneos. comumente ocorrem hiponatremia, hipomagnesemia, hiperglicemia, impotência, rash cutâneo e urticária. está também associada à fotossensibilidade, hipotensão postural, arritmias cardíacas, anorexia, náuseas e vômitos, parestesias, cefaleia, nefrite intersticial aguda.", 
+    "contraindicação": "anúria, ih e ir graves; hipocalemia refratária ou condições que envolvam perda aumentada de potássio, hiponatremia e hipercalcemia; hiperuricemia sintomática; has durante a gravidez (categoria de risco d).", 
+    "comentário": "• pode ser administrada com alimento sólido ou com leite.\n• usar protetor solar fps > 15 para evitar a fotossensibilidade.\n• evitar se dce < 30 ml/min."
+}

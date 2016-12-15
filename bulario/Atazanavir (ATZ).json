@@ -1,0 +1,14 @@
+{
+    "modo de administração": "vo. sua absorção é aumentada quando ingerido com refeições.", 
+    "name": "Atazanavir (ATZ)", 
+    "uso": "infecção pelo hiv.", 
+    "posologia": "início de tratamento: 400 mg, a cada 24 h, ou 300 mg + 100 mg rtv, ingeridos de forma conjunta, a cada 24 h; indivíduos já tratados: 300 mg + 100 mg rtv, ingeridos de forma conjunta, a cada 24 h.", 
+    "receituário": "receituário do programa da dst/aids ou receita de controle especial em duas vias.", 
+    "incompatabilities": "", 
+    "apresentações comerciais": "cpr de 200 e 300 mg.", 
+    "espectro": "ativo contra o hiv.", 
+    "grupo farmacológico": "antirretroviral; inibidor de protease (ip).", 
+    "efeitos adversos": "intolerância gastrintestinal (dor abdominal, náuseas e, mais dificilmente, vômitos) e rash cutâneo (geralmente entre 4 e 8 semanas). o atz inibe a udp-glucuronil-transferase 1a1 e diminui a conjugação das bilirrubinas, o que acarreta, de forma praticamente universal, o aumento nos níveis destas, às custas da fração indireta. esse efeito é dose-dependente e variável entre os indivíduos, sendo importante salientar que esse aumento não traz repercussão clínica para o indivíduo. pode haver aumento dos episódios de sangramento em indivíduos com hemofilia. é considerado o ip mais seguro para uso, sendo o menos associado à toxicidade metabólica. seu uso não causa dislipidemia. existe relato de prolongamento no intervalo pr e deve ser utilizado com cautela em pacientes com distúrbio de condução.", 
+    "contraindicação": "terapia atual com derivados do ergot (diidroergotamina, ergotamina), indinavir, lovastatina, sinvastatina, midazolam, triazolam, pimozida, inibidores da bomba de prótons (omeprazol, lansoprazol, esomeprazol); amamentação.", 
+    "comentário": "• pode ser considerada uma droga para início de tratamento (com ou sem rtv, em dose pequena) e para falência terapêutica, sem a existência de muitas mutações na protease (geralmente até 4-6).\n• seu uso é atrativo, pois pode ser utilizado uma única vez ao dia, e, entre os representantes da classe, é o que não está associado ainda à toxicidade metabólica.\n• na ih moderada, child-pugh b, deve ser utilizado na dose de 300 mg, a cada 24 h. não deve ser utilizado em doentes hepáticos, child-pugh c."
+}

@@ -1,0 +1,13 @@
+{
+    "modo de administração": "ev; a solução deve ser administrada, lentamente, em 1 h.", 
+    "name": "Caspofungina", 
+    "apresentações e preços comerciais": "fr-amp com 50 (r$ 2.369,34) ou 70 mg (r$ 3.052,21).", 
+    "posologia": "adultos: dose de ataque de 70 mg, seguida de manutenção com 50 mg/dia, a cada 24 h. em pacientes que usam rifampicina, manter a dose de 70 mg. a duração do tratamento deve ser avaliada com base na resposta do paciente. naqueles com cultura positiva, manter o tratamento até 14 dias após o último exame positivo; nos neutropênicos, manter o tratamento por, pelo menos, até 7 dias após melhora dos sintomas e resolução da neutropenia; no tratamento empírico, mantê-lo até a resolução da neutropenia. na esofagite, por 14 dias e por mais 7 dias após o desaparecimento dos sintomas.", 
+    "incompatabilities": "", 
+    "uso": "infecções graves (candidemia, abscesso intra-abdominal, espaço pleural, peritonite e esofagite) por candida; aspergillus, principalmente nos casos refratários ou de intolerância e no tratamento empírico para infecção fúngica no paciente neutropênico febril.", 
+    "espectro": "ativo contra todas as espécies de candida e aspergillus sp.", 
+    "grupo farmacológico": "antifúngico.", 
+    "efeitos adversos": "geralmente é bem tolerada. podem ocorrer, durante a infusão, por hipersensibilidade, rash, prurido, vermelhidão e edema facial. podem ocorrer, também, calafrios, febre, cefaleia, edema periférico, insônia, erupções cutâneas, prurido e elevação da creatinina. menos comumente ocorrem diarreia, vômitos, náusea, dor abdominal, elevação das enzimas hepáticas, eosinofilia, anemia, neutropenia, flebite, tremores, parestesias, mialgias, proteinúria, hematúria. raramente ocorrem broncoespasmo, dispneia, anafilaxia e síndrome respiratória aguda grave, ih e ir.", 
+    "contraindicação": "hipersensibilidade aos componentes da fórmula.", 
+    "comentário": "• não atinge concentrações terapêuticas na urina.\n• sinérgica com itraconazol, posaconazol, anfotericina b e terbinafina. pode apresentar sinergismo de ação em determinadas situações com voriconazol. inibidores da calcineurina podem aumentar sua atividade."
+}

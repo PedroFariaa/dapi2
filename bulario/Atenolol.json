@@ -1,0 +1,15 @@
+{
+    "associações/preços": "cpr 100 mg atenolol + 25 mg clortalidona (30 cpr r$ 30,27); cpr 25 mg atenolol + 12,5 mg clortalidona (30 cpr r$ 10,16); cpr 50 mg atenolol + 12,5 mg clortalidona (30 cpr r$ 18,76); cpr 5 mg anlodipino + 25 mg atenolol (30 cpr r$ 48,02); cpr 5 mg anlodipino + 50 mg atenolol (30 cpr r$ 56,51); cps 10 mg nifedipina + 25 mg atenolol (28 cps r$ 28,37); cps 20 mg nifedipina + 50 mg atenolol (28 cps r$ 38,67).", 
+    "name": "Atenolol", 
+    "apresentações e preços comerciais": "cpr ou cps de 25 (30 cpr r$ 6,53), 50 (30 cpr r$ 10,26) e 100 mg (30 cpr r$ 16,79).", 
+    "posologia": "angina: 50-100 mg, em uma tomada diária ou divididos; alguns pacientes podem necessitar de 200 mg/dia. has: 25-100 mg, vo, a cada 24 h. arritmias: 50-200 mg/dia, vo.", 
+    "incompatabilities": "", 
+    "uso": "angina estável, pós-iam, has, arritmias (reentrada nodal av, reentrada av, taquicardia sinusal inapropriada, síndrome do qt longo adrenérgico-dependente, taquicardia ventricular induzida pelo exercício, diminuição de resposta ventricular em fibrilação e flutter atrial, síncope vasovagal).", 
+    "apresentações/preços farmácia popular": "cpr de 25 mg (1 cpr r$ 0,07).", 
+    "apresentações/preços genéricos": "atenolol: cpr ou cps de 25 (30 cpr ou cps r$ 5,80), 50 (30 cpr ou cps r$ 8,19) e 100 mg (30 cpr ou cps r$ 14,24); clortalidona: cpr de 12,5 ou 25 mg (30 cpr 50 + 12,5 mg r$ 11,99; 30 cpr 100 + 25 mg r$ 19,23).", 
+    "grupo farmacológico": "anti-hipertensivo; antianginoso; betabloqueador; b1 seletivo.", 
+    "modo de administração": "vo. os cpr podem ser ingeridos com ou sem alimentos, mas a sua concentração sérica pode ser reduzida se administrado com alimentos.", 
+    "efeitos adversos": "broncoespasmo, bradicardia, bloqueios av, depressão miocárdica, vasoconstrição periférica e fenômeno de raynaud, insônia, pesadelos, depressão, astenia, impotência, intolerância à glicose, hipertrigliceridemia, redução do colesterol hdl-c, has rebote.", 
+    "contraindicação": "doença do nó sinusal, bloqueio av de 2o ou 3o graus, choque cardiogênico, hipotensão, acidose metabólica, distúrbio arterial periférico severo, icc descompensada, asma brônquica, doença broncopulmonar obstrutiva crônica, flutter e fibrilação atrial em pacientes com síndrome de wolff-parkinson-white, gestação no 2o e 3o trimestres (categoria de risco d).", 
+    "comentário": "• em geral, as doses antiarrítmicas são menores do que as doses antianginosas e anti-hipertensivas.\n• o mascaramento da hipoglicemia é menos provável pela seletividade b1."
+}

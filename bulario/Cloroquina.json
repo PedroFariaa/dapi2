@@ -1,0 +1,13 @@
+{
+    "modo de administração": "administrar somente por vo ou im. não misturar com outros medicamentos.", 
+    "name": "Cloroquina", 
+    "uso": "malária, piroplasmose (babesiose), amebiose hepática e lúpus eritematoso sistêmico.", 
+    "posologia": "tratamento supressivo da malária: 10 mg/kg/base, na 1a dose, 5 mg/kg/base, 6 h após, e 5 mg/kg, dose diária, por 2 dias. amebiose hepática (após uso de emetina e deidroemetina): 10 mg/kg/base/dia, por 2-3 semanas (até 300 mg/base/dia). adultos. tratamento supressivo da malária: 600 mg, vo, na 1a dose, e 300 mg, vo, no 2o e no 3o dias; 250 mg, im, de 6/6 h, caso a vo não esteja disponível. amebiose hepática (após uso de emetina ou deidroemetina): 600 mg/base, vo, dose diária, por 2 dias; após, 300 mg/base, vo, dose diária, por 2-3 semanas; les: 250 mg/1x/dia.", 
+    "incompatabilities": "", 
+    "apresentações comerciais": "cloroquina – cpr de 150 e 250 mg; difosfato de cloroquina – cpr de 250 mg.", 
+    "espectro": "ativa contra as formas eritrocíticas do plasmodium vivax, plasmodium ovale, plasmodium malariae e algumas cepas do plasmodium falciparum. útil também na amebiose hepática (entamoeba histolytica).", 
+    "grupo farmacológico": "antiprotozoário; antimalárico; seu mecanismo de ação ainda não está claro, mas parece interferir na síntese de hemozoína.", 
+    "efeitos adversos": "cefaleia, náuseas, vômitos, visão turva, tonturas, fadiga e confusão mental. raramente ocorrem despigmentação dos cabelos, opacidade corneana, perda de peso, insônia, leucopenia, mialgias, prurido, piora da psoríase, discrasias sanguíneas, psicose e fotofobia.", 
+    "contraindicação": "nos casos em que ocorrem alterações visuais com o tratamento.", 
+    "comentário": "• cada 10 mg de base equivale a 16,6 mg de sal.\n• atualmente, não se recomenda quimioprofilaxia nas áreas de transmissão de malária no brasil.\n• são recomendadas apenas medidas de proteção individual, tais como repelentes e mosquiteiros impregnados com inseticida.\n• em raros casos, a cloroquina pode causar hemólise em pacientes com deficiência da enzima g6pd."
+}

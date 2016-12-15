@@ -1,0 +1,15 @@
+{
+    "modo de administração": "vo; pode ser administrado com alimentos. ele requer um meio ácido para sua absorção, e bebidas com ph baixo (refrigerantes tipo cola, sucos cítricos) aumentam a sua biodisponibilidade. a tolerância pode ser aumentada com a ingestão da medicação junto com alimentos, ao deitar, ou em doses divididas.", 
+    "name": "Cetoconazol", 
+    "apresentações e preços comerciais": "cpr de 200 mg (10 cpr r$ 19,49); bisnaga creme com 30 g (r$ 11,18).", 
+    "posologia": "de 200 (de preferência) a 400 mg/dia (até 800 mg), em dose única diária. paracoccidioidomicose: 200-400 mg/dia, por 6 meses. blastomicose: 400-800 mg/dia, por 6-12 meses. histoplasmose não meníngea: 400 mg/dia, por 10-14 dias. candidíase vulvovaginal: 200-400 mg/dia, por 5 dias. candidíase oroesofágica: 200 mg/dia, por 14 dias. coccidioidomicose refratária: 600-800 mg/dia. pitiríase versicolor: dose única de 400 mg (pode ser repetida mensalmente, pois a recorrência é comum).", 
+    "incompatabilities": "", 
+    "uso": "infecções cutaneomucosas causadas por candida sp. nas dermatofitoses e na pitiríase versicolor, por via tópica ou sistêmica. alternativa para o tratamento de blastomicose, histoplasmose, paracoccidioidomicose e pseudalesqueríase não meníngeas, em pacientes imunologicamente competentes, e para candidíase mucocutânea crônica, esofágica e candidúria.", 
+    "apresentações/preços farmácia popular": "cpr de 200 mg (1 cpr r$ 0,23).", 
+    "espectro": "ativo contra candida sp. e cryptococcus neoformans (menos ativo do que fluconazol e itraconazol). ativo contra os fungos dimórficos blastomyces dermatitidis, coccidiodes immitis, histoplasma capsulatum, paracoccidioides brasiliensis, sporothrix shenckii. também apresenta atividade contra pseudoallescheria boydii e pityriasis versicolor e dermatófitos.", 
+    "grupo farmacológico": "antifúngico.", 
+    "efeitos adversos": "as mais comuns são náuseas, vômitos, anorexia e dor abdominal (até 10-20%). aumento de transaminases (5-10%), hepatite (1/10.000 pacientes) e necrose hepática fatal podem ocorrer. prurido (2%), exantema alérgico (4-10%) e febre ocorrem menos comumente. depressão e alterações endócrinas (diminuição de cortisol e testosterona), reversíveis com a parada da droga, (principalmente com doses mais elevadas, tempo de tratamento prolongado e uso associado ao inibidor do cip3a4), como irregularidade menstrual na mulher e ginecomastia, diminuição da libido, impotência e oligospermia no homem podem ocorrer. supressão adrenal (diminuição do acth) também está descrita neste cenário clínico.", 
+    "contraindicação": "uso concomitante de derivados do ergot.", 
+    "comentário": "• seu uso diminuiu muito com o surgimento dos triazólicos, que apresentam menor toxicidade e menos interações medicamentosas.\n• atualmente, pode ser considerada droga de segunda linha.\n• não atinge concentrações adequadas no líquido cerebrospinal.", 
+    "apresentações/preços genéricos": "cpr de 200 mg (10 cpr 16,19); bisnaga creme com 15 g (r$ 6,48) ou 30 g (r$ 13,79)."
+}

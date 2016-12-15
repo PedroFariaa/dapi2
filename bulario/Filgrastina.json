@@ -1,0 +1,12 @@
+{
+    "modo de administração": "injeção sc diária ou infusão ev diária diluída em sg 5% durante 30 min. a 1a dose não deve ser administrada antes ou após 24 h da quimioterapia. não pode ser diluída em soluções salinas.", 
+    "name": "Filgrastina", 
+    "apresentações e preços comerciais": "fr-amp de 1 ou 2 ml com 300 µg (r$ 432,83); seringas preenchidas de 1 ml com 300 µg (r$ 432,83); seringas preenchidas de 0,5 ml com 300 µg (r$ 451,80).", 
+    "posologia": "neutropenia pós-quimioterapia: 5 µg/kg/dia; a dose pode ser aumentada em 5 µg/kg/dia de acordo com a duração e a gravidade da neutropenia; reduzir a dose para 5 µg/kg/dia quando os neutrófilos atingirem > 10.000/mm3 por 3 dias consecutivos; se mais 3 dias consecutivos com neutrófilos > 10.000/mm3, descontinuar a medicação. neutropenia crônica idiopática: 5 µg/kg/dia.", 
+    "incompatabilities": "", 
+    "uso": "estimulação da produção granulocítica na neutropenia induzida pela quimioterapia, neutropenia crônica idiopática severa, coleta periférica de precursores hematopoéticos.", 
+    "grupo farmacológico": "estimulador da produção granulocítica.", 
+    "efeitos adversos": "os mais comuns são febre, petéquias, rash, aumento da fosfatase alcalina, dor óssea, epistaxe, náusea, vômito, cefaleia, fraqueza, hipo/hipertensão, arritmias, esplenomegalia. menos comumente podem ocorrer reações alérgicas, alopecia, artralgia, vasculite cutânea, dispneia.", 
+    "contraindicação": "hipersensibilidade aos componentes da fórmula.", 
+    "comentário": "precauções extras devem ser tomadas no uso de filgrastina em qualquer malignidade com características mieloides, pois pode agir como um fator de crescimento."
+}

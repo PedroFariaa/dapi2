@@ -1,0 +1,11 @@
+{
+    "modo de administração": "via intravenosa: contínuo: diluir a dose na concentração máxima de 3,2 mg/ml em sf 0,9% ou sg 5% (de 250-500 ml de soro).\nvelocidade de infusão de 20100 ml/h (para pacientes de 70 kg).\nvia intramuscular: não.", 
+    "name": "Dopamina", 
+    "apresentações e preços comerciais": "amp com 5 mg/ml em 10 ml.", 
+    "posologia": "n adultos e crianças: 15 µg/kg/min, iv, até 50 µg/kg/min. se doses acima de 20-30 µg/kg/min forem necessárias, outro fármaco com ação vaso-pressora direta pode ser mais benéfico (p.ex., adrenalina, noradrenalina). os efeitos hemodinâmicos da dopamina são dosesdependentes: com baixa dose (15 µg/kg/min), há aumento do fluxo sanguíneo renal e débito urinário; com dose intermediária (515 µg/kg/min), há aumento do fluxo sanguíneo, fc, inotropismo cardíaco e débito; com dose alta (> 15 µg/kg/ min), começam a predominar os efeitos a-adrenérgicos, vasoconstrição e aumento da pa.", 
+    "uso": "icc refratária, choque cardiogênico, choque séptico, disfunção ventricular póscirurgia cardíaca.", 
+    "grupo farmacológico": "inotrópico positivo; atua sobre receptores dopami-nérgicos, d1 e d2, exercendo efeitos vasodilatadores, sobre receptores b1 e b2, causando inotropismo e, também, sobre receptores a, em doses mais altas, causando vasoconstrição.", 
+    "incompatabilities": "", 
+    "contraindicação": "taquiarritmias e fv.", 
+    "comentário": "a taquicardia é mais acentuada do que com dobutamina, aumentando o risco de isquemia miocárdica em pacientes com doença arterial coronariana.\no extravasamento de dopamina para tecidos moles pode causar sua necrose (preferir infusão via cateter central)."
+}

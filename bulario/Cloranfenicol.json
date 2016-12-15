@@ -1,0 +1,14 @@
+{
+    "modo de administração": "vo ou ev. quando usado por vo, deve ser com água e de estômago vazio. não administrar por via im. a administração por via ev direta pode ser feita diluindo-se o pó liofilizado em água destilada, utilizando-se 2,5 ml para cada 250 mg de cloranfenicol. a solução para infusão ev pode ser obtida por meio da diluição da solução inicial em sf 0,9%, sg 5%, sgf ou solução de ringer, com ou sem lactato. a concentração final não deve ultrapassar 20 mg/ml, e a infusão deve ser feita por um período de 15-30 min.", 
+    "name": "Cloranfenicol", 
+    "apresentações e preços comerciais": "cps de 500 mg (24 cps r$ 28,12); fr-amp com 1 g em 5 ml (r$ 4,31).", 
+    "posologia": "crianças e adultos: 12,5-25 mg/kg/dose, de 6/6 h; dose máxima de 4,8 g/dia.", 
+    "receituário": "receita branca de controle epecial em 2 vias.", 
+    "incompatabilities": "", 
+    "uso": "infecções por salmonella typhi (febre tifoide) e rickettsia sp. otites, rinossinusites e pneumonias refratárias a outros tratamentos. pode ainda ser usado no tratamento de meningites.", 
+    "espectro": "gram-positivos, como streptococcus sp. e staphylococcus sensíveis à oxacilina. boa atividade contra gram-negativos, incluindo neisseria sp., haemophilus sp., escherichia coli, shigella sp., salmonella sp. e yersinia sp. muito boa atividade contra anaeróbios (incluindo bacteroides fragilis), rickettsia sp., mycoplasma sp. e chlamydia sp. não é ativo contra várias cepas de klebsiella sp., enterobacter sp., serratia sp., proteus sp., pseudomonas sp. e acinetobacter sp. sem atividade adequada contra enterococcus sp.", 
+    "grupo farmacológico": "antibiótico; anfenicol.", 
+    "efeitos adversos": "aplasia de medula pode ocorrer durante ou após o tratamento e independe da via de administração; depressão medular reversível (leucopenia e/ou anemia e/ou trombocitopenia) relacionada a níveis séricos elevados. síndrome cinzenta (distensão abdominal, cianose e colapso vasomotor) ocorre em prematuros e em recém-nascidos e está relacionada a níveis séricos altos. reações de hipersensibilidade (eritema, febre e anafilaxia). náuseas, vômitos, diarreia, glossite, estomatite, irritação peritoneal. neurite óptica, cefaleia, neurite periférica, depressão, oftalmoplegia, confusão mental e diátese hemorrágica podem ocorrer após uso prolongado (diminuição da produção de fatores de coagulação dependentes da vitamina k).", 
+    "contraindicação": "hipersensibilidade aos componentes da fórmula. evitar o uso em recém-nascidos.", 
+    "comentário": "• boa penetração no líquido cerebrospinal e em outros tecidos.\n• apresenta antagonismo in vitro contra b-lactâmicos e aminoglicosídeos (significado clínico duvidoso); excelente absorção vo."
+}

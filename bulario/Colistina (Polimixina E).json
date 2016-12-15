@@ -1,0 +1,13 @@
+{
+    "modo de administração": "diluir o conteúdo da ampola com 2 ml de água destilada, movimentando suavemente para evitar formação de espuma. pode ser administrada im ou em bolus de 3-10 min por via ev. para infusão contínua, diluir em sf 0,9%, sfg ou sg 5%; a concentração dependerá das necessidades hídricas do paciente. para nebulização, diluir em 4 ml de sf 0,9%.", 
+    "name": "Colistina (Polimixina E)", 
+    "uso": "infecções graves por bactérias resistentes a alternativas menos tóxicas. tem sido usada principalmente em infecções por p. aeruginosa e acinetobacter sp. resistentes a todas as alternativas disponíveis. também usada por via inalatória, para manejo de pacientes com fibrose cística colonizados por p. aeruginosa.", 
+    "posologia": "crianças, adolescentes e adultos: calcular a dose pelo peso ideal. im, ev: 2,5-5 mg/kg/dia, divididos a cada 6-12 h. infusão contínua: administrar metade da dose em bolus e, 1-2 h depois, infundir o restante ao longo de 24 h. fibrose cística: ev: 5-8 mg/kg/dia, a cada 8 h; máximo de 160 mg/dose. inalatória: 75 mg em sf 0,9% (4 ml de volume final), 2x/dia.", 
+    "incompatabilities": "", 
+    "apresentações comerciais": "amp com 150 mg de colistimetato (metanossulfonato de colistina).", 
+    "espectro": "enterobacter sp., klebsiella sp., escherichia sp., salmonella sp., shigella sp., haemophilus sp., pasteurella sp., vibrio sp., pseudomonas aeruginosa e acinetobacter sp. não age contra proteus sp., serratia sp., neisseria sp. e brucella sp.", 
+    "grupo farmacológico": "antibiótico; polimixina.", 
+    "efeitos adversos": "neurotóxica e nefrotóxica; a colistina pode causar fala lenta, tonturas, vertigens, febre, ataxia, confusão mental, convulsões, prurido, urticária e outras erupções cutâneas, desconforto gastrintestinal, parestesias, fraqueza muscular, neuropatia periférica, redução da função renal, ir, hematúria, albuminúria, apneia; broncoespasmo e tosse podem ocorrer com a administração inalatória.", 
+    "contraindicação": "hipersensibilidade aos componentes da fórmula.", 
+    "comentário": "• baixa penetração no líquido cerebrospinal."
+}

@@ -1,0 +1,13 @@
+{
+    "modo de administração": "uso ev. mantenha a embalagem a 25ºc. o pó deve ser reconstituído em 15 ml do diluente (álcool desidratado para injeção aquosa), com concentração de 3,33 mg/ml, e deve ficar armazenado a 25ºc (15-30). a solução reconstituída deve ser diluída em soro fisiológico ou soro glicosado 5% e utilizada em até 24 h. a solução deve ser administrada na velocidade máxima de 1,1 mg/min. a solução final pode ser mantida à temperatura ambiente por 24 h.", 
+    "name": "Anidulafungina", 
+    "uso": "na candidemia, na peritonite, em abscesso intra-abdominal e esofagite causados por candida.", 
+    "posologia": "infecção grave, dose de ataque de 200 mg no primeiro dia, seguida de manutenção com 100 mg/dia, a cada 24 h, por pelo menos 14 dias após a última cultura positiva; na esofagite, dose de ataque de 100 mg no primeiro dia e, após, 50 mg/dia, por pelo menos 14 dias e após 7 dias da resolução dos sintomas.", 
+    "incompatabilities": "", 
+    "apresentações comerciais": "embalagem com 50 mg em pó com 15 ml de diluente.", 
+    "espectro": "ativo contra as espécies de candida.", 
+    "grupo farmacológico": "antifúngico.", 
+    "efeitos adversos": "geralmente bem tolerada. podem ocorrer, por hipersensibilidade durante a infusão, rash, urticária, prurido, vermelhidão, dispneia e hipotensão (dificilmente ocorrem com velocidade de infusão inferior a 1,1 mg/ml). eventualmente, pode ocorrer elevação nas enzimas hepáticas. sem outras alterações frequentes até o momento.", 
+    "contraindicação": "hipersensibilidade aos componentes da fórmula.", 
+    "comentário": "sua experiência clínica ainda é restrita.\npode apresentar sinergismo de ação com itraconazol, voriconazol, anfotericina b e terbinafina."
+}

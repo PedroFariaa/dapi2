@@ -1,0 +1,13 @@
+{
+    "modo de administração": "vo. a medicação deve ser ingerida com estômago vazio, 2 h antes ou depois das refeições, para que seja melhor absorvida.", 
+    "name": "Entecavir", 
+    "uso": "tratamento da hepatite b crônica em adultos > 16 anos, com viremia persistente e transaminases elevadas ou com atividade histológica comprovada.", 
+    "posologia": "em indivíduos sem tratamento prévio (exceto interferon), a dose é de 0,5 mg, 1x/dia. em caso de exposição prévia ou de mutação de resistência à lamivudina, a dose é 1 mg, 1x/dia. o tempo de duração ideal do tratamento ainda não está estabelecido, mas deve ser de, pelo menos, 1 ano.", 
+    "incompatabilities": "", 
+    "apresentações comerciais": "cpr de 0,5 (30 cpr r$ 758,89) e 1 mg.", 
+    "espectro": "hbv.", 
+    "grupo farmacológico": "antiviral.", 
+    "efeitos adversos": "geralmente é bem tolerado. cefaleia, vertigem, fadiga, náuseas, vômitos, diarreia, dispepsia, tontura, sonolência, insônia e alterações nas transaminases podem ocorrer. pode ocorrer reação de hipersensibilidade; nesse caso, o medicamento deve ser interrompido.", 
+    "contraindicação": "hipersensibilidade aos componentes da fórmula.", 
+    "comentário": "casos de acidose lática e esteatose foram relatados, alguns fatais. a acidose lática deve ser monitorada.\nexacerbações graves da hepatite b podem ocorrer se o medicamento for suspenso abruptamente.\nnão evita a transmissão sexual ou parenteral do hbv, e, durante o uso da medicação, os indivíduos não devem cessar as medidas de prevenção.\né o mais potente dos fármacos anti-hbv disponíveis atualmente; sua potência é diminuída para hbv resistente à lamivudina, necessitando de uma dose maior nessa situação."
+}
