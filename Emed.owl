@@ -6,7 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pedro/ontologies/emed"/>
     
 
 
@@ -51,9 +51,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/pedro/ontologies/emed.owl#contraIndicação -->
+    <!-- http://www.semanticweb.org/pedro/ontologies/emed.owl#contraIndicacao -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#contraIndicação">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#contraIndicacao">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/pedro/ontologies/emed.owl#Medicamento"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
@@ -78,9 +78,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/pedro/ontologies/emed.owl#modoAdministração -->
+    <!-- http://www.semanticweb.org/pedro/ontologies/emed.owl#modoAdministracao -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#modoAdministração">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#modoAdministracao">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/pedro/ontologies/emed.owl#Medicamento"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
