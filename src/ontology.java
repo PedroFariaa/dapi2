@@ -45,68 +45,83 @@ public class ontology {
 
 	public static void main(String[] args) throws IOException, ParseException {
 		InputStream in = new FileInputStream("Emed.owl"); // or any windows path
-		
-		
+
 		OntModel base = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
 
 		base.read(in, null);
-
-		
 		in.close();
 
-		OntClass MedicamentoClass = base.getOntClass(namespace + "Medicamento");
+		File dir = new File("bulario/");
+		File[] directoryListing = dir.listFiles();
 
+		if (directoryListing != null) {
+			for (File child : directoryListing) {
+				processFile(base, child);
+			}
+		}
+
+
+	}
+
+	public static void processFile(OntModel base, File file) throws FileNotFoundException, IOException, ParseException {
+		String name = file.getName();
+		int pos = name.lastIndexOf(".");
+		if (pos > 0) {
+			name = name.substring(0, pos);
+		}
+
+		OntClass MedicamentoClass = base.getOntClass(namespace + "Medicamento");
 		ArrayList<OntProperty> MedicamentoProperties = new ArrayList<OntProperty>();
 
-		
-		
-		 for(Iterator it = MedicamentoClass.listDeclaredProperties();it.hasNext();){ 
-			 OntProperty p = (OntProperty) it.next(); 
-			 MedicamentoProperties.add(p); 
-			 }
-		 
+		for (Iterator it = MedicamentoClass.listDeclaredProperties(); it.hasNext();) {
+			OntProperty p = (OntProperty) it.next();
+			MedicamentoProperties.add(p);
+		}
 
 		JSONParser parser = new JSONParser();
-		Object obj = parser.parse(new FileReader("bulario/Anfepramona.json"));
+		Object obj = parser.parse(new FileReader("bulario/" + name + ".json"));
 		JSONObject Medicamento = (JSONObject) obj;
 
-		Individual i = base.createIndividual(namespace + "Anfepramona",MedicamentoClass);
-		
+		Individual i = base.createIndividual(namespace + name, MedicamentoClass);
+
 		for (Iterator iterator = Medicamento.keySet().iterator(); iterator.hasNext();) {
 			String key = (String) iterator.next();
 
 			for (OntProperty p : MedicamentoProperties) {
 				System.out.println("ugh" + p.getLocalName());
 
-				
-				if (p.getLocalName().equals("nome")){
+				if (p.getLocalName().equals("nome")) {
 					System.out.println("Encontrou a propriedade do nome");
-					i.addLiteral(p, Medicamento.get("name"));	
+					i.addLiteral(p, Medicamento.get("name"));
 				}
-				
+
 				System.out.println(Medicamento.get("uso"));
 				if (p.getLocalName().equals("uso"))
-					i.addLiteral(p, Medicamento.get("uso"));
+					if (Medicamento.get("uso")!= null)
+						i.addLiteral(p, Medicamento.get("uso"));
 				if (p.getLocalName().equals("posologia"))
-					i.addLiteral(p, Medicamento.get("posologia"));
+					if (Medicamento.get("posologia")!= null)
+						i.addLiteral(p, Medicamento.get("posologia"));
 				if (p.getLocalName().equals("modoAdministracao"))
-					i.addLiteral(p, Medicamento.get("modo de administração"));
+					if (Medicamento.get("modo de administração")!= null)
+						i.addLiteral(p, Medicamento.get("modo de administração"));
 				if (p.getLocalName().equals("grupoFarmacologico"))
-					i.addLiteral(p, Medicamento.get("grupo farmacológico"));
+					if (Medicamento.get("grupo farmacológico")!= null)
+						i.addLiteral(p, Medicamento.get("grupo farmacológico"));
 				if (p.getLocalName().equals("efeitoAdverso"))
-					i.addLiteral(p, Medicamento.get("efeitos adversos"));
+					if (Medicamento.get("efeitos adversos")!= null)
+						i.addLiteral(p, Medicamento.get("efeitos adversos"));
 				if (p.getLocalName().equals("contraIndicacao"))
-					i.addLiteral(p, Medicamento.get("contraindicação"));
-					
-					
+					if (Medicamento.get("contraindicação")!= null)
+						i.addLiteral(p, Medicamento.get("contraindicação"));
+
 			}
 		}
 		
-		base.write(System.out);
-
-		
-		
-		
-
+		FileOutputStream fout = new FileOutputStream("teste.rdf");
+	       
+        //base.write(System.out);
+        base.write(fout);
+        fout.close();
 	}
 }
