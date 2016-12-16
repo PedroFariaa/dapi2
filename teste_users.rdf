@@ -2352,12 +2352,10 @@ anemia da prematuridade (eritropoietina humana recombinante e alfa-epoetina): 25
     <uso>alopecia androgênica (apenas em homens), hiperplasia prostática benigna, hirsutismo.</uso>
     <modoAdministracao>vo. ingerir os cpr antes ou após as refeições.</modoAdministracao>
   </Medicamento>
-    
-  <User rdf:about="http://www.semanticweb.org/pedro/ontologies/emed#António">
+  <User rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#António">
   </User>
-  <User rdf:about="http://www.semanticweb.org/pedro/ontologies/emed#João">
+  <User rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#João">
   </User>
-    
   <User rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#António">
       <takes rdf:datatype="java:org.apache.jena.ontology.impl.IndividualImpl"> http://www.semanticweb.org/pedro/ontologies/emed.owl#Deflazacorte
       </takes>
@@ -2366,11 +2364,30 @@ anemia da prematuridade (eritropoietina humana recombinante e alfa-epoetina): 25
       <takes rdf:datatype="java:org.apache.jena.ontology.impl.IndividualImpl"> http://www.semanticweb.org/pedro/ontologies/emed.owl#Epinastina
       </takes>
   </User>
-    
   <User rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#João">
       <takes rdf:datatype="java:org.apache.jena.ontology.impl.IndividualImpl"> http://www.semanticweb.org/pedro/ontologies/emed.owl#Clorpromazina
       </takes>
       <takes rdf:datatype="java:org.apache.jena.ontology.impl.IndividualImpl"> http://www.semanticweb.org/pedro/ontologies/emed.owl#Diltiazem
       </takes>
   </User>
+  <Medicamento rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#Diltiazem">
+      <istaken rdf:datatype="java:org.apache.jena.ontology.impl.IndividualImpl"> http://www.semanticweb.org/pedro/ontologies/emed.owl#João
+      </istaken>
+  </Medicamento>
+  <Medicamento rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#Deflazacorte">
+      <istaken rdf:datatype="java:org.apache.jena.ontology.impl.IndividualImpl"> http://www.semanticweb.org/pedro/ontologies/emed.owl#António
+      </istaken>
+  </Medicamento>
+  <Medicamento rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#Clorpromazina">
+      <istaken rdf:datatype="java:org.apache.jena.ontology.impl.IndividualImpl"> http://www.semanticweb.org/pedro/ontologies/emed.owl#João
+      </istaken>
+  </Medicamento>
+  <Medicamento rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#Finasterida">
+      <istaken rdf:datatype="java:org.apache.jena.ontology.impl.IndividualImpl"> http://www.semanticweb.org/pedro/ontologies/emed.owl#António
+      </istaken>
+  </Medicamento>
+  <Medicamento rdf:about="http://www.semanticweb.org/pedro/ontologies/emed.owl#Epinastina">
+      <istaken rdf:datatype="java:org.apache.jena.ontology.impl.IndividualImpl"> http://www.semanticweb.org/pedro/ontologies/emed.owl#António
+      </istaken>
+  </Medicamento>
 </rdf:RDF>
