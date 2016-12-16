@@ -21,9 +21,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/pedro/ontologies/emed#incompatibilidade -->
+    <!-- http://www.semanticweb.org/pedro/ontologies/emed#hasIncompatibilidade -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/emed#incompatibilidade">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/emed#hasIncompatibilidade">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/pedro/ontologies/emed.owl#Medicamento"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/pedro/ontologies/emed.owl#Medicamento"/>
     </owl:ObjectProperty>
